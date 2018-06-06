@@ -107,7 +107,7 @@ score = [37.21, 37.21, 37.2, 41, 39]
 grade= [name, score]
 students.append(grade)
 
-students = sorted(students, key=lambda x: x[1])
+students = sorted(students, key=lambda x: x[1]) # can use key in sorted, min, max, etc to use 2nd columns as key
 second_highest = students[0][1]
 for name1, grade1 in students:
     print(grade1)
