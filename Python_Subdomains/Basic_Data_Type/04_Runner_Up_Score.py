@@ -92,7 +92,7 @@ Sample Output 0
 
 ### HackerRank Solution ####
 # i = int(input())
-# lis = list(map(int,input().strip().split()))[:i]
+# lis = list(map(int,input().strip().split()))[:i]  ### input type is string
 # z = max(lis)
 # while max(lis) == z:
 #     lis.remove(max(lis))
