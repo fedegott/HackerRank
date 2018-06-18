@@ -38,7 +38,7 @@ if __name__ == '__main__':
     print("please input a string:")
     string = input()
     result = swap_case(string)
-    print(swap_case(result))
+    print(result)
 # else:
 
 
